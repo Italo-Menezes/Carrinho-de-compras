@@ -94,6 +94,7 @@ function limpar() {
     // Atualiza apenas o <span> do total
     valorTotal = document.getElementById('valor-total');
     valorTotal.innerText = `R$0`;
+    carrinhoDeCompras = [];
 }
 
 
